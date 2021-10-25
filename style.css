@@ -1,0 +1,309 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+}
+/* Navbar */
+
+.navbar-brand,.nav-link{
+  color: white !important;
+  text-shadow: 1px 1px 1px rgba(0,0, 0, 0.7);
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+.tombol{
+  text-transform: uppercase;
+  border-radius: 35px;
+  
+}
+
+/* Onboard */
+.jumbotron{
+  background:  linear-gradient(to bottom, transparent 0%, black 100%), url('res/florian-olivo-Mf23RF8xArY-unsplash.jpg');
+  background-size: cover;
+  height: 640px;
+  
+  
+}
+.jumbotron .display-4{
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0,0, 0, 0.7);
+  margin-bottom: 30px;
+}
+.jumbotron .display-4 span{
+  font-weight: 500;
+}
+
+.jumbotron .display-5{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 5px 5px 5px rgba(0,0, 0, 0.7);
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+
+.jumbotron .text-center .btn{
+  width: 50%;
+  margin: auto;
+}
+/* quick shop */
+
+.grid{
+  margin-top: 120px;
+}
+
+.grid .card-img{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  
+}
+
+
+.grid h2{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.grid .card{
+  transition: transform 0.2s; /* Animation */
+}
+
+
+.grid .product h5{
+  color: white;
+}
+
+/* TABEL */
+.tablepc{
+  margin-top: 70px;
+}
+
+.tablepc .table{
+  width: 90%;
+  white-space: nowrap;
+  table-layout:auto;
+  margin: auto;
+  text-align: center;
+}
+
+.tablepc h2{
+  color: white;
+  text-align: center;
+  
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+   
+}
+
+.tablepc .display-5{
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.tablepc .harga th {
+  color: black;
+  font-weight: 500;
+}
+.tablepc .tombol .btn{
+  font-weight: 600;
+}
+
+/* info panel */
+.panel{
+  margin-top: 90px;
+}
+
+.text-panel .display-6{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 5px 5px 5px rgba(0,0, 0, 0.7);
+  margin-top: 60px;
+  margin-bottom: 25px;
+  
+}
+
+.info-panel{
+  box-shadow: 0 3px 20px rgba(0,0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -5px;
+  background-color: white;
+  padding: 30px;
+}
+
+
+.gambar img{
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+.info-panel h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p{
+  font-size: 14px;
+  margin-top: -5px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+
+
+/* Discount List */
+.sale{
+  margin-top: 70px;
+}
+
+.sale .display-4{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  
+  margin-bottom: 30px;
+}
+.sale .display-5{
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 25px;
+  
+}
+.sale .card{
+  transition: transform .2s; /* Animation */
+}
+
+.sale .card-footer .diskon{
+  display: inline;
+  border-radius: 4px;
+  background: #F33030; 
+  padding: 4px; 
+  font-size: 12px
+}
+
+.sale .card-footer .text{
+  color: white;
+  font-weight: 500;
+}
+
+.kotak{
+ padding: 5%;
+  background-color: rgb(46, 45, 45);
+  border-radius: 1em;
+}
+.judulprofile h1{
+  color: whitesmoke;
+  
+}
+
+.navprofile .btnedit{
+  background-color: yellow;
+}
+
+.navprofile nav{
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.tabelprofile{
+  background-color: rgb(240, 234, 227);
+  border-radius: 0 0 1em 1em;
+  padding: 5%;
+}
+
+.kotakedit p{
+  margin-bottom: 0rem !important;
+}
+
+.footer{
+	background-color:#333;
+	padding:0.6em;
+  margin-top: 2em;
+}
+
+.footer .copy{
+	color:#eaeaea;
+	text-align:center;
+  align-items: center;
+	font-size:15px;
+}
+
+@media (min-width: 992px){
+  /* Navbar */
+  .nav-link{
+      text-transform: uppercase;
+      margin-right: 25px;
+      
+  }
+  .nav-link:hover{
+      border-bottom: 3px solid gray;
+      padding-bottom: 0px;
+  }
+
+  /* Onboard */
+  .jumbotron{
+      margin-top: -75px;
+  }
+
+  /* Grid */
+  .grid{
+      margin-top: -30px;
+  }
+
+  .grid h2{
+      color: white;
+      text-align: center;
+      font-weight: 500;
+      
+      
+      margin-bottom: 25px;
+  }
+
+  /* info panel */
+  .text-panel .display-6{
+      margin-bottom: 20px;
+  }
+  .info-panel{
+      
+      padding: 30px;
+  }
+
+  /* Discount  dan  quickshop*/
+  .sale .card:hover, .grid .card:hover{
+      transform: scale(1.1);
+  }
+
+  .textbawah{
+      margin-top: 20px;
+  }
+}
